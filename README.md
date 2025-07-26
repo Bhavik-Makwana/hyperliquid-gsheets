@@ -24,9 +24,9 @@ Follow these steps to deploy and use the custom function in your Google Sheet:
 
 | Formula | Result (Example) |
 |---------|----------------|
-| =HYPERLIQUIDSPOTPRICE("UBTC") | 65432.10 |
+| =HYPERLIQUIDSPOTPRICE("UBTC") | 118000.10 |
 | =HYPERLIQUIDSPOTPRICE("UETH") | 3210.98 |
-| =HYPERLIQUIDSPOTPRICE("HYPE") | 0.00123 |
+| =HYPERLIQUIDSPOTPRICE("HYPE") | 44.3 |
 | =HYPERLIQUIDSPOTPRICE("UNKNOWN") | Symbol not found: UNKNOWN |
 
  
