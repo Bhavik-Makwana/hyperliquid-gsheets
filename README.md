@@ -6,21 +6,14 @@ Fetch the live mark price of assets on the Hyperliquid DEX. This project can def
 - `=HYPERLIQUIDSPOTPRICE(tickerSymbol)` - Get the midPx of the provided asset
 
   
-# 🚀 How to Use
-Follow these steps to deploy and use the custom function in your Google Sheet:
+## How to Use
+1. Open Apps Script Editor in your Google Sheet via the Extensions menu.
+2. Paste the Code in and authorize for first-time use
+3. Save the Project
 
-1. Open Your Google Sheet
-   Navigate to Google Sheets and open the spreadsheet where you want to add this function.
-2. Open the Apps Script EditorIn your Google Sheet, click on Extensions in the top menu.
-   Hover over Apps Script and then click on Open Script editor. This will open a new browser tab with the Apps Script editor.
-3. Paste the CodeIn the Apps Script editor, you'll see a file named Code.gs (or similar) on the left sidebar
-   Delete any default code present in Code.gs.
-   replace with the contents of `script.gs`
- 
-4. Save the Project
-5. Authorize the Script (First Time Only)
-  
-# 📊 Example Usage in Google Sheets
+Alternatively I believe you can use a deployed library https://script.google.com/macros/library/d/1Irw5mofaWlyEs98MraTqr4us_EcqKz_isTSyIVBwz6kwdaSmYSDpg9X_/1
+
+## Example Usage
 
 | Formula | Result (Example) |
 |---------|----------------|
@@ -31,4 +24,3 @@ Follow these steps to deploy and use the custom function in your Google Sheet:
 
  
  
- Alternatively I believe you can use https://script.google.com/macros/library/d/1Irw5mofaWlyEs98MraTqr4us_EcqKz_isTSyIVBwz6kwdaSmYSDpg9X_/1
